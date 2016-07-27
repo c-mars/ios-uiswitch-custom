@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A44DF461D49046100DC546C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44DF451D49046100DC546C /* main.m */; };
+		2A44DF491D49046100DC546C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44DF481D49046100DC546C /* AppDelegate.m */; };
+		2A44DF4C1D49046100DC546C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44DF4B1D49046100DC546C /* ViewController.m */; };
+		2A44DF4F1D49046100DC546C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A44DF4D1D49046100DC546C /* Main.storyboard */; };
+		2A44DF521D49046100DC546C /* CustomSwitch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A44DF501D49046100DC546C /* CustomSwitch.xcdatamodeld */; };
+		2A44DF541D49046100DC546C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A44DF531D49046100DC546C /* Assets.xcassets */; };
+		2A44DF571D49046200DC546C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A44DF551D49046100DC546C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A44DF411D49046100DC546C /* CustomSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A44DF451D49046100DC546C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A44DF471D49046100DC546C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A44DF481D49046100DC546C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A44DF4A1D49046100DC546C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A44DF4B1D49046100DC546C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A44DF4E1D49046100DC546C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A44DF511D49046100DC546C /* CustomSwitch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomSwitch.xcdatamodel; sourceTree = "<group>"; };
+		2A44DF531D49046100DC546C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A44DF561D49046100DC546C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A44DF581D49046200DC546C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A44DF3E1D49046100DC546C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A44DF381D49046100DC546C = {
+			isa = PBXGroup;
+			children = (
+				2A44DF431D49046100DC546C /* CustomSwitch */,
+				2A44DF421D49046100DC546C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A44DF421D49046100DC546C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A44DF411D49046100DC546C /* CustomSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A44DF431D49046100DC546C /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				2A44DF471D49046100DC546C /* AppDelegate.h */,
+				2A44DF481D49046100DC546C /* AppDelegate.m */,
+				2A44DF4A1D49046100DC546C /* ViewController.h */,
+				2A44DF4B1D49046100DC546C /* ViewController.m */,
+				2A44DF4D1D49046100DC546C /* Main.storyboard */,
+				2A44DF531D49046100DC546C /* Assets.xcassets */,
+				2A44DF551D49046100DC546C /* LaunchScreen.storyboard */,
+				2A44DF581D49046200DC546C /* Info.plist */,
+				2A44DF501D49046100DC546C /* CustomSwitch.xcdatamodeld */,
+				2A44DF441D49046100DC546C /* Supporting Files */,
+			);
+			path = CustomSwitch;
+			sourceTree = "<group>";
+		};
+		2A44DF441D49046100DC546C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A44DF451D49046100DC546C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A44DF401D49046100DC546C /* CustomSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A44DF5B1D49046200DC546C /* Build configuration list for PBXNativeTarget "CustomSwitch" */;
+			buildPhases = (
+				2A44DF3D1D49046100DC546C /* Sources */,
+				2A44DF3E1D49046100DC546C /* Frameworks */,
+				2A44DF3F1D49046100DC546C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSwitch;
+			productName = CustomSwitch;
+			productReference = 2A44DF411D49046100DC546C /* CustomSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A44DF391D49046100DC546C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HealthPrize;
+				TargetAttributes = {
+					2A44DF401D49046100DC546C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A44DF3C1D49046100DC546C /* Build configuration list for PBXProject "CustomSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A44DF381D49046100DC546C;
+			productRefGroup = 2A44DF421D49046100DC546C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A44DF401D49046100DC546C /* CustomSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A44DF3F1D49046100DC546C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A44DF571D49046200DC546C /* LaunchScreen.storyboard in Resources */,
+				2A44DF541D49046100DC546C /* Assets.xcassets in Resources */,
+				2A44DF4F1D49046100DC546C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A44DF3D1D49046100DC546C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A44DF4C1D49046100DC546C /* ViewController.m in Sources */,
+				2A44DF491D49046100DC546C /* AppDelegate.m in Sources */,
+				2A44DF521D49046100DC546C /* CustomSwitch.xcdatamodeld in Sources */,
+				2A44DF461D49046100DC546C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A44DF4D1D49046100DC546C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A44DF4E1D49046100DC546C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A44DF551D49046100DC546C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A44DF561D49046100DC546C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A44DF591D49046200DC546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A44DF5A1D49046200DC546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A44DF5C1D49046200DC546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmars.CustomSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A44DF5D1D49046200DC546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmars.CustomSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A44DF3C1D49046100DC546C /* Build configuration list for PBXProject "CustomSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A44DF591D49046200DC546C /* Debug */,
+				2A44DF5A1D49046200DC546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A44DF5B1D49046200DC546C /* Build configuration list for PBXNativeTarget "CustomSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A44DF5C1D49046200DC546C /* Debug */,
+				2A44DF5D1D49046200DC546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A44DF501D49046100DC546C /* CustomSwitch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A44DF511D49046100DC546C /* CustomSwitch.xcdatamodel */,
+			);
+			currentVersion = 2A44DF511D49046100DC546C /* CustomSwitch.xcdatamodel */;
+			path = CustomSwitch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A44DF391D49046100DC546C /* Project object */;
+}
